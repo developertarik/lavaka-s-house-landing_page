@@ -1,1 +1,35 @@
- 
+ @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+ .h1-h1{
+    font-family: "Nerko One",sans-serif;
+    align-items: center;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+ body{
+    font-family:'Roboto', sans-serif;
+ }
+ header{
+    background-color:#FED049;
+    padding: 45px 70px;
+    
+
+ }
+ .header{
+    display:flex;
+    flex-direction: row;
+    gap:210px;
+
+ }.row-text{
+    line-height: 60px;
+    font-size: 25px;
+ }
+ span{
+    font-size: bold;
+    color: rgb(235, 10, 25);
+ }
+ main{
+    background-color: #CFFDE1;
+ }
