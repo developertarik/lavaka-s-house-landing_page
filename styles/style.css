@@ -1,18 +1,28 @@
  @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/*body*/
+body{
+    font-family:'Roboto', sans-serif;
+ }
 
+ /*nav-bar*/
+ .nav-bar{
+    display:flex;
+    flex-direction: row;
+    background-color:#E5D9B6;
+    justify-content: space-around;
+ }
  .h1-h1{
     font-family: "Nerko One",sans-serif;
     align-items: center;
     display:flex;
     flex-direction: row;
     justify-content: center;
+    color: black;
  }
- body{
-    font-family:'Roboto', sans-serif;
- }
+ /*header*/
  header{
-    background-color:#FED049;
+    background-color:#A4BE7B   ;
     padding: 45px 70px;
     
 
@@ -25,11 +35,26 @@
  }.row-text{
     line-height: 60px;
     font-size: 25px;
+    color:rgb(47, 44, 44) ;
  }
  span{
     font-size: bold;
     color: rgb(235, 10, 25);
+    font-weight: bolder;
  }
- main{
-    background-color: #CFFDE1;
+ /*main*/
+ .main{
+    background-color: #5F8D4E;
+    display:flex;
+    flex-direction: row;
+    padding: 5% 11%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .house{
+    opacity: 0.85;
+ }
+ .footer{
+    background-color: #285430;
+    padding: 15px 10px;
+    color: whitesmoke;
  }
